@@ -1,0 +1,23 @@
+body, html {
+	height: 100%;
+	font-family: 'Indie Flower', cursive;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 5em;
+	color: #fff;
+}
+
+.heading {
+	background-image: url(images/gallery/bg.jpg);
+	background-color: #235923;
+	opacity: 0.85;
+}
+
+img {
+	position: relative;
+	height: 111px !important;
+	margin-right: -11px !important;
+}
