@@ -74,8 +74,8 @@
         font-family: 'Shadows Into Light', cursive;
     }
     
-    .p1{
-        background-image: url(images/gallery/School.jpg); 
+    .p1 {
+        background-image: url(images/gallery/School.jpg);
     }
     
     .p2{
@@ -97,13 +97,21 @@
     .p6{
         background-image: url(images/gallery/30.JPG);                    
     }
-    
-</style>    
+
+    .p1 > div {
+        border: 1px solid blue;
+        width: 2%;
+        background-color: red;
+        height: 45%;
+        transition: ease 1s;
+    }
+
+</style>
 </head>
     
 <body>
 <header>
-<div class="container-fluid">	
+<div>	
 	    <div id="myCarousel" class="carousel slide" data-ride="carousel">
 	  <!-- Indicators -->
 	  <ol class="carousel-indicators">
@@ -159,17 +167,21 @@
 </header>
     
 <section>
-    <div class="p1">About IIT Indore</div>
-    <div class="p2">Gymkhana Office</div>
-    <div class="p3">Hostels</div>
-    <div class="p4">Technical Clubs</div>
-    <div class="p5">Cultural Clubs</div>
-    <div class="p6">Achievements and photo gallery</div>
+    <div class="p1">
+        <div class="link">
+            <span class="fig_caption">About IIT Indore</span>
+        </div>
+    </div>
+    <div class="p2"><div><span>Gymkhana Office</span></div></div>
+    <div class="p3"><div><span>Hostels</span></div></div>
+    <div class="p4"><div><span>Technical Clubs</span></div></div>
+    <div class="p5"><div><span>Cultural Clubs</span></div></div>
+    <div class="p6"><div><span>Achievements and photo gallery</span></div></div>
 </section>    
     
 <footer>
 </footer>    
     
-    
+    <script src="animate.js"></script>
 </body>
 </html>
