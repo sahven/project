@@ -8,8 +8,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 <style>
-<!--
-    Styling the header portion-->    
+    /*Styling the header portion*/
+
     html,body {
     	height: 100%;
     	width: 100%;
@@ -28,9 +28,7 @@
     	max-width: 100% !important;
     }
 
-    .carousel{
-    }
-    .item h1,h2{
+    .item h1,h2 {
         color: black;
         font-weight: 800;
         letter-spacing: 8px;
@@ -39,17 +37,19 @@
         font-family: 'Shadows Into Light', cursive;
         opacity: .65;
     }
-    .item h2{
+
+    .item h2 {
         font-size: 3em !important;
     }
-    img{
-    position: static;
-  	opacity: 0.65;
-  	background-attachment: fixed;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	filter: blur(1px);
+
+    img {
+	    position: static;
+	  	opacity: 0.65;
+	  	background-attachment: fixed;
+	  	background-position: center;
+	  	background-repeat: no-repeat;
+	  	background-size: cover;
+	  	filter: blur(1px);
     }
 
     .carousel-caption {
@@ -61,73 +61,41 @@
 		-moz-transform-style: preserve-3d;
 		transform-style: preserve-3d;
     }
-    
- <!-- 
-    Styling the section(parallax) -->
+     
+    /*Styling the section(parallax)*/
  
-    .p1{
-        background-image: url(images/gallery/School.jpg);
-        min-height: 350px;
+    .p1,.p2,.p3,.p4,.p5,.p6{ 
+        min-height: 50%;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         font-size: 4em;
-        
+        font-family: 'Shadows Into Light', cursive;
     }
-        .p1{
-        background-image: url(images/gallery/School.jpg);
-        min-height: 350px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
+    
+    .p1{
+        background-image: url(images/gallery/School.jpg); 
     }
-        .p2{
-        background-image: url(images/gallery/Cafeteria.jpg);
-        min-height: 350px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-            
+    
+    .p2{
+        background-image: url(images/gallery/Cafeteria.jpg); 
     }
-        .p3{
-        background-image: url(images/gallery/1.JPG);
-        min-height: 350px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-            
+    
+    .p3{
+        background-image: url(images/gallery/1.JPG);           
     }
-        .p4{
-        background-image: url(images/gallery/38.JPG);
-        min-height: 350px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-            
+    
+    .p4{
+        background-image: url(images/gallery/38.JPG);                    
     }
-        .p5{
-        background-image: url(images/gallery/sunburn.jpg);
-        min-height: 350px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-            
+    
+    .p5{
+        background-image: url(images/gallery/sunburn.jpg);                    
     }
-        .p6{
-        background-image: url(images/gallery/30.JPG);
-        min-height: 350px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-            
+    
+    .p6{
+        background-image: url(images/gallery/30.JPG);                    
     }
     
 </style>    
@@ -191,7 +159,7 @@
 </header>
     
 <section>
-    <div class="p1"><p>About IIT Indore</p></div>
+    <div class="p1">About IIT Indore</div>
     <div class="p2">Gymkhana Office</div>
     <div class="p3">Hostels</div>
     <div class="p4">Technical Clubs</div>
