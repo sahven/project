@@ -1,23 +1,170 @@
-body, html {
+* {
+}
+
+html,body {
 	height: 100%;
-	font-family: 'Indie Flower', cursive;
-	margin: 0;
-	padding: 0;
+	width: 100%;
 }
 
-h1 {
-	font-size: 5em;
-	color: #fff;
+.carousel-indicators li {
+	border: 1px solid #2f6b2a !important;
 }
 
-.heading {
-	background-image: url(images/gallery/bg.jpg);
-	background-color: #235923;
-	opacity: 0.85;
+.carousel-indicators .active {
+	background-color: #2f6b2a !important;
+}
+
+.item {
+	max-height: 75% !important;
+	max-width: 100% !important;
+}
+
+.item h1,h2 {
+    color: black;
+    font-weight: 800;
+    letter-spacing: 8px;
+    font-size: 4.5em;
+    margin : auto 0;
+    font-family: 'Shadows Into Light', cursive;
+    opacity: .65;
+}
+
+.item h2 {
+    font-size: 3em !important;
 }
 
 img {
+    position: static;
+  	opacity: 0.65;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	filter: blur(1px);
+}
+
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+	/*to prevent blurry elements when it's placed on half a pixel.*/
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+ 
+/*Styling the section(parallax)*/
+
+.p1,.p2,.p3,.p4,.p5,.p6{
 	position: relative;
-	height: 111px !important;
-	margin-right: -11px !important;
+    min-height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.p1 {
+    background-image: url(images/gallery/School.jpg);
+}
+
+.p2{
+    background-image: url(images/gallery/Cafeteria.jpg); 
+}
+
+.p3{
+    background-image: url(images/gallery/1.JPG);           
+}
+
+.p4{
+    background-image: url(images/gallery/38.JPG);                    
+}
+
+.p5{
+    background-image: url(images/gallery/sunburn.jpg);                    
+}
+
+.p6{
+    background-image: url(images/gallery/30.JPG);                    
+}
+
+.p1 > div,.p2 > div,.p3 > div,.p4 > div,
+.p5 > div,.p6 > div {
+	opacity: .65;
+    width: 0;
+    background-color: #1f66d1;
+    height: 30%;
+    transition: ease .3s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    text-align: center;
+}
+
+/* giving the borders and postion to links*/
+
+.p1 > div {
+	border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+}
+
+.p2 > div {
+	right: 0;
+	border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    text-align: left;
+}
+
+.p3 > div {
+	border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+}
+
+.p4 > div {
+	border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    right: 0;
+}
+
+.p5 > div {
+	border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+}
+
+.p6 > div {
+	border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    right: 0;
+}
+
+
+
+/* testing */
+.p2 > span,.p4 > span,.p6 > span {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    right: 1%;
+    font-size: 2em;
+    color: #fff;
+    word-wrap: break-word;
+}
+
+.p1 > span,.p3 > span,.p5 > span {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    left: 1%;
+    font-size: 2em;
+    color: #fff;
+}
+
+.p6 > span {
+	color: #fff;
+	width: 12%;
+	font-size: 1.8em;
 }

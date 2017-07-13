@@ -7,106 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
-<style>
-    /*Styling the header portion*/
-
-    html,body {
-    	height: 100%;
-    	width: 100%;
-    }
-	
-	.carousel-indicators li {
-		border: 1px solid #2f6b2a !important;
-	}
-
-    .carousel-indicators .active {
-    	background-color: #2f6b2a !important;
-    }
-
-    .item {
-    	max-height: 75% !important;
-    	max-width: 100% !important;
-    }
-
-    .item h1,h2 {
-        color: black;
-        font-weight: 800;
-        letter-spacing: 8px;
-        font-size: 4.5em;
-        margin : auto 0;
-        font-family: 'Shadows Into Light', cursive;
-        opacity: .65;
-    }
-
-    .item h2 {
-        font-size: 3em !important;
-    }
-
-    img {
-	    position: static;
-	  	opacity: 0.65;
-	  	background-attachment: fixed;
-	  	background-position: center;
-	  	background-repeat: no-repeat;
-	  	background-size: cover;
-	  	filter: blur(1px);
-    }
-
-    .carousel-caption {
-    	top: 50%;
-    	transform: translateY(-50%);
-    	bottom: initial;
-    	/*to prevent blurry elements when it's placed on half a pixel.*/
-    	-webkit-transform-style: preserve-3d;
-		-moz-transform-style: preserve-3d;
-		transform-style: preserve-3d;
-    }
-     
-    /*Styling the section(parallax)*/
- 
-    .p1,.p2,.p3,.p4,.p5,.p6{ 
-        min-height: 50%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        font-size: 4em;
-        font-family: 'Shadows Into Light', cursive;
-    }
-    
-    .p1 {
-        background-image: url(images/gallery/School.jpg);
-    }
-    
-    .p2{
-        background-image: url(images/gallery/Cafeteria.jpg); 
-    }
-    
-    .p3{
-        background-image: url(images/gallery/1.JPG);           
-    }
-    
-    .p4{
-        background-image: url(images/gallery/38.JPG);                    
-    }
-    
-    .p5{
-        background-image: url(images/gallery/sunburn.jpg);                    
-    }
-    
-    .p6{
-        background-image: url(images/gallery/30.JPG);                    
-    }
-
-    .p1 > div {
-        border: 1px solid blue;
-        width: 2%;
-        background-color: red;
-        height: 45%;
-        transition: ease 1s;
-    }
-
-</style>
+    <link href="style.css" rel="stylesheet">
 </head>
     
 <body>
@@ -168,15 +69,34 @@
     
 <section>
     <div class="p1">
-        <div class="link">
-            <span class="fig_caption">About IIT Indore</span>
-        </div>
+        <div class="link-1"></div>
+        <span class="fig_caption1">About IIT Indore</span>
     </div>
-    <div class="p2"><div><span>Gymkhana Office</span></div></div>
-    <div class="p3"><div><span>Hostels</span></div></div>
-    <div class="p4"><div><span>Technical Clubs</span></div></div>
-    <div class="p5"><div><span>Cultural Clubs</span></div></div>
-    <div class="p6"><div><span>Achievements and photo gallery</span></div></div>
+    
+    <div class="p2">
+        <div class="link-2"></div>
+        <span class="fig_caption2">Gymkhana Office</span>
+    </div>
+
+    <div class="p3">
+        <div class="link-3"></div>
+        <span class="fig_caption3">Hostels</span>
+    </div>
+
+    <div class="p4">
+        <div class="link-4"></div>
+        <span class="fig_caption4">Technical Clubs</span>
+    </div>
+
+    <div class="p5">
+        <div class="link-5"></div>
+        <span class="fig_caption5">Cultural Clubs</span>
+    </div>
+
+    <div class="p6">
+        <div class="link-6"></div>
+        <span class="fig_caption6">Achievements and photo gallery</span>
+    </div>
 </section>    
     
 <footer>
