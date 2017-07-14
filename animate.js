@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 	$(".p1").mouseleave(function() {
 		$(".link-1").css({
-			"width" : "0"
+			"width" : "5%"
 		});
 		$(".fig_caption1").hide();
 
@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 	$(".p2").mouseleave(function() {
 		$(".link-2").css({
-			"width" : "0"
+			"width" : "5%"
 		});
 		$(".fig_caption2").hide();
 
@@ -47,7 +47,7 @@ $(document).ready(function() {
 
 	$(".p3").mouseleave(function() {
 		$(".link-3").css({
-			"width" : "0"
+			"width" : "5%"
 		});
 		$(".fig_caption3").hide();
 
@@ -64,7 +64,7 @@ $(document).ready(function() {
 
 	$(".p4").mouseleave(function() {
 		$(".link-4").css({
-			"width" : "0"
+			"width" : "5%"
 		});
 		$(".fig_caption4").hide();
 
@@ -82,7 +82,7 @@ $(document).ready(function() {
 
 	$(".p5").mouseleave(function() {
 		$(".link-5").css({
-			"width" : "0"
+			"width" : "5%"
 		});
 		$(".fig_caption5").hide();
 
@@ -100,7 +100,7 @@ $(document).ready(function() {
 
 	$(".p6").mouseleave(function() {
 		$(".link-6").css({
-			"width" : "0"
+			"width" : "5%"
 		});
 		$(".fig_caption6").hide();
 
