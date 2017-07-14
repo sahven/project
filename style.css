@@ -1,6 +1,8 @@
 * {
 }
 
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 html,body {
 	height: 100%;
 	width: 100%;
@@ -62,7 +64,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 
 .p1 {
@@ -91,9 +93,10 @@ img {
 
 .p1 > div,.p2 > div,.p3 > div,.p4 > div,
 .p5 > div,.p6 > div {
-	opacity: .65;
+	border-top: 8px solid lightgrey;
+	/*opacity: .65;*/
     width: 0;
-    background-color: #1f66d1;
+    background-color: rebeccapurple;
     height: 30%;
     transition: ease .3s;
     position: absolute;
@@ -148,7 +151,7 @@ img {
     transform: translateY(-50%);
     bottom: initial;
     right: 1%;
-    font-size: 2em;
+    font-size: 1.7em;
     color: #fff;
     word-wrap: break-word;
 }
@@ -159,12 +162,12 @@ img {
     transform: translateY(-50%);
     bottom: initial;
     left: 1%;
-    font-size: 2em;
+    font-size: 1.7em;
     color: #fff;
 }
 
 .p6 > span {
 	color: #fff;
 	width: 12%;
-	font-size: 1.8em;
+	font-size: 1.6em;
 }
