@@ -24,7 +24,6 @@ html,body {
     font-size: 4.5em;
     margin : auto 0;
     font-family: 'Shadows Into Light', cursive;
-    opacity: .65;
 }
 
 .item h2 {
@@ -33,7 +32,7 @@ html,body {
 
 img {
     position: static;
-  	opacity: 0.65;
+  	opacity: 1;
   	background-attachment: fixed;
   	background-position: center;
   	background-repeat: no-repeat;
