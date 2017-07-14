@@ -1,6 +1,3 @@
-* {
-}
-
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 html,body {
@@ -170,4 +167,19 @@ img {
 	color: #fff;
 	width: 12%;
 	font-size: 1.6em;
+}
+
+#container1 {
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+}
+#container2 {
+    
+}
+
+#container3 {
+	top: 75%;
+	position: relative;
+	z-index: 3;
 }
