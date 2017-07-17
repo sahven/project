@@ -196,6 +196,7 @@ footer > h1{
     font-family: monospace;
 }
 footer{
+	overflow-x: hidden;
     background-color: black;
 }
 footer > h4{
