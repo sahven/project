@@ -1,23 +1,28 @@
-.navbar-header > img{
+.navbar-header > img {
     border:0px;
 }
-.jumbotron > img{
+
+.jumbotron > img {
     padding-top: 40px;
     padding-bottom: 15px;
 }
-.content{
+
+.content {
     background-color: black;
     color: white;
     padding-left: 40px;
     margin-top: 0;
 }
-.bg-grey{
+
+.bg-grey {
     background-color: #f6f6f6;
 }
-.bg-black{
+
+.bg-black {
     background-color: black;
 }
-#section{
+
+#section {
     letter-spacing: 0.3px;
     font-size: 1.6em;
     padding-top: 50px;
@@ -28,10 +33,15 @@
     font-family: 'Libre Baskerville', serif;
     font-style: oblique;
 }
-.footer{
+
+.footer {
     padding: 50px;
     font-size: 1.3em;
     color: blanchedalmond;
     font-family: 'Bellefair', serif;
     letter-spacing: 0.5px;
+}
+
+#navbar-header { 
+    transition: ease-in-out .4s top;
 }
