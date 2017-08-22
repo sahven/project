@@ -8,13 +8,13 @@ $(window).scroll(function() {
 		
 
 		if(final_height-initial_height_navbar > 0) {
-			$("#navbar-header").css({
+			$(".navbar1").css({
 				"top" : "-45px"
 			});
 		}
 
 		else
-			$("#navbar-header").css({
+			$(".navbar1").css({
 				"top" : ""
 			});
 

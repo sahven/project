@@ -1,45 +1,165 @@
-.navbar-header > img {
-    border:0px;
-}
-.jumbotron > img {
-    padding-top: 40px;
-    padding-bottom: 15px;
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Styling the navbar */
+.navbar1{
+margin: auto;
+position: fixed;
+width: 100%;
 }
 
-.content {
-    background-color: black;
-    color: white;
-    padding-left: 40px;
-    margin-top: 0;
+ul{
+background-color: #4A4A4A;
+border-bottom: 10px solid #875555;
+height: 70px;
+text-align: right;
 }
 
-.bg-grey {
-    background-color: #f6f6f6;
+li{
+display: inline-block;
+text-decoration: none;
+padding-right: 10px; 
+line-height: 70px;
+transition: ease-out 0.2s;
 }
 
-.bg-black {
-    background-color: black;
+a{
+font-size: 20px;
+text-decoration: none;
+text-align: right;
+color: #875555;
+padding: 10px;
+transition: ease-out 0.4s;
+letter-spacing: 0.5px;
 }
-
-#section {
-    letter-spacing: 0.3px;
-    font-size: 1.6em;
-    padding-top: 50px;
-    padding-left: 18.5%;
-    padding-right: 18.5%;
-    padding-bottom: 50px;
+a:hover{
+background-color: #875555;
+color: #4A4A4A;
+padding: 15px;
+text-decoration: none;
+transition: ease-out 0.4s;
+}
+/* Styling the body */
+.container
+{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 100px;
+}
+.container > h1
+{
+    text-transform: uppercase; 
+    text-align: center;
+    font-size: 3.5em;
+}
+.image-container > img
+{ 
+    display: block;
+    margin: auto;
+}
+.image-container
+{
+    margin: 30px;
+}
+.intro
+{
     text-align: justify;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 2em;
+}
+.row
+{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.col-md-4
+{
+    padding-left: 0;
+    padding-right: 0;
+    width: 561px;
+    height: 300px;
+    margin-right: 20px;
+}
+.col-md-4 > img
+{
+    width: 100%;
+    height: 100%;
+}
+.overlay
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: grey;
+}
+.col-md-4:hover .overlay
+{
+    opacity: 1;
+}
+.text
+{
+    
+}
+.footer
+{
+    background-color: black;
+    text-align: center;
+    font-size: 2em;
+    color: teal;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
 }
 
-.footer {
-    padding: 50px;
-    font-size: 1.3em;
-    color: blanchedalmond;
-    font-family: 'Bellefair', serif;
-    letter-spacing: 0.5px;
+
+/*social media icons in the footer*/
+.fa {
+  padding: 15px;
+  font-size:20px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 25%;
 }
 
-#navbar-header { 
-    transition: ease-in-out .4s top;
+.fa:hover {
+    opacity: 0.7;
 }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
