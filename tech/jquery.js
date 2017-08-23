@@ -3,8 +3,9 @@ $(document).ready(function(){
 
 	$(".panel").mouseover(function(){
 
+		$(this).addClass("panel active").css({"opacity": "1"});
+		
 		$(this).children().css({ "left": "20px" });
-		$(this).addClass("panel active");
 
 		for (var j = 0; j < panels.length; j++)
 		{
@@ -15,7 +16,6 @@ $(document).ready(function(){
       			panels[j].style.left = b + "%";
     		}
   		}
-		
   		for (var k = 0; k < panels.length; k++) {
   		  if (panels[k].className != "panel active") {
   		    panels[k].className = "panel inactive";
@@ -30,10 +30,9 @@ $(document).ready(function(){
   		  }
   		}
 	});
-	
 	$(".panel").mouseleave(function(){
 
-		$(this).children().css({ "left" : "-20px"});
+		$(this).css({"opacity": "0.9"}).children().css({ "left": "-20px" });
 		$(".panel").css({"left" : ""}).removeClass("active").removeClass("inactive");
 
 	});

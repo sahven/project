@@ -1,5 +1,8 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
+.container{
+	padding-top: 80px;
+}
 
 @media screen and (max-width: 1600px)
 {
@@ -86,6 +89,7 @@
         transition: ease-out 0.4s; 
         border-bottom: 10px solid grey;
         }
+		
     /*image overlay effect*/
     .overlay{
     	position: absolute;
