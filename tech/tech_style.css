@@ -1,3 +1,20 @@
+html
+{
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px; 
+}
+
+/* Navbar */
 	.navbar1{
 	    margin: auto;
 	    position: fixed;
@@ -53,6 +70,72 @@
 	    		padding-bottom: 14px;
 	    	}
 	    }
+
+/* Panels */
+
+#container
+{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 68px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.panel
+{
+	position: absolute;
+	width: 40%;
+	height: 60%;
+	text-align: center;
+	transition-duration: 0.5s;
+	-moz-transition-duration:0.5s;
+	-webkit-transition-duration:0.5s;
+	-o-transition-duration:0.5s; 
+	transition: 0.5s ease;
+}
+.text{
+	position: relative;
+	left: -20px;
+	top: 18%;
+	text-align: justify;
+	display: inline-block;
+	transition-duration: 0.5s;
+	-moz-transition-duration:0.5s;
+	-webkit-transition-duration:0.5s;
+	-o-transition-duration:0.5s;	
+}
+.text > h1{
+	padding: 0;
+	margin: -2px 0 0 0;
+}
+#one
+{
+	left: 0;
+	background-color: blue;
+}
+#two
+{
+	left: 20%;
+	background-color: green;
+}
+#three
+{
+	left: 40%;
+	background-color: orange;
+}
+#four
+{
+	left: 60%;
+	background-color: yellow;
+}
+#five
+{
+	left: 80%;
+	background-color: red;
+}
 
 
 
