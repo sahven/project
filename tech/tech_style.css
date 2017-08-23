@@ -1,0 +1,42 @@
+/*Navbar*/
+
+.navbar1{
+	margin: auto;
+	position: fixed;
+	width: 100%;
+	z-index: 20000;
+}
+
+.navbar1 ul{
+background-color: #4A4A4A;
+border-bottom: 10px solid #875555;
+height: 70px;
+text-align: right;
+}
+
+.navbar1 li{
+display: inline-block;
+text-decoration: none;
+padding-right: 10px; 
+line-height: 70px;
+transition: ease-out 0.2s;
+}
+
+.navbar1 a{
+font-size: 18px;
+text-decoration: none;
+text-align: right;
+color: #875555;
+padding: 10px;
+transition: ease-out 0.4s;
+letter-spacing: 0.5px;
+}
+.navbar1 a:hover{
+background-color: #875555;
+color: #4A4A4A;
+padding: 30px;
+padding-bottom: 15px;
+text-decoration: none;
+transition: ease-out 0.4s;
+border-bottom: 10px solid grey;
+}
