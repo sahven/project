@@ -21,7 +21,7 @@
 	    }
 
 	    .navbar1 a{
-	    font-size: 20px;
+	    font-size: 18px;
 	    text-decoration: none;
 	    text-align: right;
 	    color: #875555;
@@ -29,12 +29,29 @@
 	    transition: ease-out 0.4s;
 	    letter-spacing: 0.5px;
 	    }
+	    @media screen and (min-width: 1600px)
+	    {
+	    	.navbar1 a
+	    	{
+	    		font-size: 20px;
+	    	}
+	    }
 	    .navbar1 a:hover{
 	    background-color: #875555;
 	    color: #4A4A4A;
-	    padding: 15px;
+	    padding: 30px;
+	    padding-bottom: 15px;
 	    text-decoration: none;
-	    transition: ease-out 0.4s;
+	    transition: ease-out 0.4s; 
+	    border-bottom: 10px solid grey;
+	    }
+	    @media screen and (min-width: 1600px)
+	    {
+	    	.navbar1 a:hover
+	    	{
+	    		padding: 25px;
+	    		padding-bottom: 14px;
+	    	}
 	    }
 
 
