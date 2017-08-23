@@ -1,3 +1,19 @@
+html
+{
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px; 
+}
+
 /*navbar*/
 
 	.navbar1{
@@ -55,4 +71,96 @@
 	    		padding-bottom: 14px;
 	    	}
 	    }
+		
+/*Panels*/
+
+#container
+{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 68px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.panel
+{
+	position: absolute;
+	width: 40%;
+	height: 60%;
+	text-align: center;
+	transition-duration: 0.5s;
+	-moz-transition-duration:0.5s;
+	-webkit-transition-duration:0.5s;
+	-o-transition-duration:0.5s; 
+	transition: 0.5s ease;
+}
+.text{
+	position: relative;
+	top: 18%;
+	left: -20px;
+	display: inline-block;
+	font-family: 'Droid Serif', serif;
+    font-weight: normal;
+	text-transform: uppercase;
+	color: white;
+    text-shadow: 2px 2px 12px #555555;
+	text-align: justify;
+	transition-duration: 0.5s;
+	-moz-transition-duration:0.5s;
+	-webkit-transition-duration:0.5s;
+}
+.text > h1{
+	padding: 0;
+	margin: -10px 0 0 0;
+}
+
+.text > h3 {
+  margin: 0;
+  color: #FFFFFF;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.7em;
+  opacity: 0.8;
+}
+
+.inactive .text {
+  opacity: 0.3;
+}
+
+#one
+{
+	left: 0;
+	background-image: url("../images/tech/prog.jpg");
+	background-size: cover;
+	opacity: 0.9;
+}
+#two
+{
+	left: 20%;
+	background-color: green;
+}
+#three
+{
+	left: 40%;
+	background-color: orange;
+}
+#four
+{
+	left: 60%;
+	background-color: yellow;
+}
+#five
+{
+	left: 80%;
+	background-image: url("../images/tech/astro.jpg"); 	
+	background-size: cover;
+	opacity: 0.9;
+}
+
+
 
