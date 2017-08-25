@@ -137,29 +137,30 @@ html,body{
 	left: 0;
 	background-image: url("../images/tech/prog.jpg");
 	background-size: cover;
-	opacity: 0.9;
 }
 #two
 {
 	left: 20%;
-	background-color: green;
+	background-image: url("../images/tech/elec.jpg");
+	background-size: cover;
 }
 #three
 {
 	left: 40%;
-	background-color: orange;
+	background-image: url("../images/tech/robotics1.jpg"); 	
+	background-size: cover;
 }
 #four
 {
 	left: 60%;
-	background-color: yellow;
+	background-image: url("../images/tech/robocon.jpg");
+	background-size: cover;
 }
 #five
 {
 	left: 80%;
-	background-image: url("../images/tech/astro.jpg"); 	
+	background-image: url("../images/tech/astro1.jpg"); 	
 	background-size: cover;
-	opacity: 0.9;
 }
 
 
