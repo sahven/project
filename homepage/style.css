@@ -181,18 +181,6 @@ img {
 }
 
 
-/*#container1 {*/
-    /*position: fixed;*/
-    /*z-index: 1;*/
-    /*height: 100%;*/
-/*}*/
-
-/*#container3 {
-	top: 75%;
-	position: relative;
-	z-index: 3;
-}*/
-
 
 @media screen and (min-width: 1600px) {
 	#placeholder {
