@@ -14,5 +14,15 @@ $(document).ready(function() {
 		$(this).children(".fig_caption").hide();
 
 	});
+	$(window).scroll(function(){
+		var scroll_height = $(this).scrollTop();
+		if (scroll_height > 800) {
+			$("#container1").css({"display" : "none"});
+		}
+		else
+		{
+			$("#container1").show();
+		}
+	})
 
 });
