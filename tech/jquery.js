@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 	$(".panel").mouseover(function(){
 
-		$(this).addClass("panel active").css({"opacity": "1"});
+		$(this).addClass("panel active");
 		
 		$(this).children().css({ "left": "20px" });
 
@@ -32,7 +32,7 @@ $(document).ready(function(){
 	});
 	$(".panel").mouseleave(function(){
 
-		$(this).css({"opacity": "0.9"}).children().css({ "left": "-20px" });
+		$(this).children().css({ "left": "-20px" });
 		$(".panel").css({"left" : ""}).removeClass("active").removeClass("inactive");
 
 	});
