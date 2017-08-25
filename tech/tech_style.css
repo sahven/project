@@ -1,6 +1,7 @@
 html
 {
 	box-sizing: border-box;
+	/*transition: .4s ease;*/
 }
 *,
 *:before,
@@ -21,6 +22,7 @@ html,body{
 	    position: fixed;
 	    width: 100%;
 	    z-index: 20000;
+		transition: .8s;
 	    }
 
 	    .navbar1 ul{

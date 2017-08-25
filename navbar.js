@@ -1,20 +1,20 @@
-var initial_height_navbar = 40;
+var initial_height_navbar = 0;
 
-$(window).scroll(function() {
+$(document).scroll(function() {
 
 	var final_height = $(this).scrollTop();
 
-	if ( Math.abs( final_height-initial_height_navbar ) > 5 ) {
+	if ( Math.abs( final_height-initial_height_navbar ) > 0 ) {
 		
 
 		if(final_height-initial_height_navbar > 0) {
-			$(".navbar1").css({
-				"top" : "-45px"
+			$(".navbar1").fadeIn("slow").css({
+				"top" : "-66px"
 			});
 		}
 
 		else
-			$(".navbar1").css({
+			$(".navbar1").fadeOut("slow").css({
 				"top" : ""
 			});
 
