@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
 	$("span[class^='fig_caption']").hide();
-
 	$(".panel1").mouseenter(function() {
 
 		$(this).children(".link").css({"width" : "15%"});
