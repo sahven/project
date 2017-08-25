@@ -13,7 +13,7 @@ html,body{
 	width: 100%;
 	height: 100%;
 	margin: 0px;
-	padding: 0px; 
+	padding: 0px;
 }
 
 /*navbar*/
@@ -23,7 +23,8 @@ html,body{
 	    position: fixed;
 	    width: 100%;
 	    z-index: 20000;
-		transition: .8s;
+	    top: 0;
+	    transition: .3s ease;
 	    }
 
 	    .navbar1 ul{
@@ -166,3 +167,7 @@ html,body{
 	background-size: cover;
 }
 
+.content {
+	position: absolute;
+	top: 80%;
+}
