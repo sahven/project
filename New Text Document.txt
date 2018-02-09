@@ -1,0 +1,9 @@
+Nav Links:
+	Home
+	About
+	Tech 
+	Cultural
+	Gallery
+	News
+	SESC
+	Reach us
